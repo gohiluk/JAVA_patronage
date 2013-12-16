@@ -44,15 +44,15 @@
 	</dependencies>
 
 	<build>
-		<finalName>/api</finalName>
+		<finalName>api</finalName>
 		<plugins>
 		
 		 <plugin>
         <groupId>org.apache.tomcat.maven</groupId>
         <artifactId>tomcat7-maven-plugin</artifactId>
-        <version>2.3-SNAPSHOT</version>
+        <version>2.2</version>
         <configuration>
-          <path>/api</path>
+          <path>api</path>
         </configuration>
       </plugin>
 		
