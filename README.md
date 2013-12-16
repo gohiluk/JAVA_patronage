@@ -1,9 +1,10 @@
 Kompilacja w folderze z pom.xml za pomocą komendy
-mvn package
+<pre>mvn package</pre>
 
 następnie uruchomienie aplikacji na serwerze za pomocą komendy
-mvn tomcat7:run
+<pre>mvn tomcat7:run</pre>
 
-po wpisaniu url http://localhost:8080/api/hello?person=Willson
+po wpisaniu url 
+<pre>http://localhost:8080/api/hello?person=Willson</pre>
 otrzymujemy odpowiedź
-{"message":"Hello, Willson!"}
+<pre>{"message":"Hello, Willson!"}</pre>
